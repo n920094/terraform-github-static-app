@@ -1,5 +1,7 @@
-# GitHub static app module
+# Static Webapp
 
-This module creates a GitHub repository from a template repository (defined in [variables.tf](variables.tf) with `template_org` and `template_repo`), enables GitHub Pages on it, adds a readme file from a [template](templates/README.md), and adds a GitHub Action secret for a Slack Webhook URL.
+Your static webapp repository will be ready soon and contain a GitHub Actions workflow to package and serve the webapp on GitHub Pages!
 
-It is a companion repository to the [HCP Waypoint get started collection](https://developer.hashicorp.com/waypoint/tutorials/hcp-waypoint).
+After the application is initialized in a minute or so, you can access your repository with the link below. It will contain a readme with additional information and a link to the deployed app.
+
+[GitHub code repository](https://github.com/ORG_NAME/{{.ApplicationName}})
